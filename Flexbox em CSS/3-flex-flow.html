@@ -13,11 +13,28 @@
         }
 
         .default {
-            flex-flow: row nowrap;
+            flex-flow: row nowrap; /*row: linha, column: coluna*/
+        }                            
+
+        .r-nowrap {
+            flex-flow: row-reverse nowrap;
+
         }
 
         .wrap{
             flex-flow: row wrap;
+        }
+
+        .wrap-reverse{
+            flex-flow: row wrap-reverse;
+        }
+
+        .r-wrap {
+            flex-flow:  row-reverse wrap;
+        }
+
+        .rr-wrap{
+            flex-flow: row-reverse wrap-reverse;
         }
 
         .item{
@@ -42,6 +59,18 @@
 
     </div>
 
+    <h1> ROW - REVERSE NOWRAP</h1>
+    <div class="flex-container r-nowrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+
+    </div>
+    
+
     <h1> WRAP</h1>
     <div class="flex-container wrap">
         <div class="item">1</div>
@@ -52,6 +81,38 @@
         <div class="item">6</div>
 
     </div>
+
+    <h1> WRAP REVERSE</h1>
+    <div class="flex-container wrap-reverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+
+    </div>
+
+    <h1> ROW - REVERSE WRAP </h1>
+    <div class="flex-container r-wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+    <h1> ROW-REVERSE WRAP-REVERSE </h1>
+    <div class="flex-container rr-wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
     
+
 </body>
 </html>
