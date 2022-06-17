@@ -15,4 +15,11 @@ preco = preco - desconto
 const PRECO1 = 3 // CONSTANTE EM MAIUSCULO
 
 
+// CRIANDO FUNÇÕES
 
+function soma(a, b) {
+    console.log(a + b); // imprime o resultado
+    return a + b; 
+}
+
+soma(3, 5); // chamal
