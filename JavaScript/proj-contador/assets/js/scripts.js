@@ -26,7 +26,7 @@ function decrement() {
     }
 
 
-/* USANDO O LISTENER PARA QUANDO CLICAR NO BOTAO '-' */
+/* USANDO O LISTENER PARA QUANDO CLICAR NO BOTÃO '-' */
 document.getElementById("subtrair").addEventListener("click", function(){
 document.getElementById("text").innerText = "Você diminuiu o valor!";
 });
