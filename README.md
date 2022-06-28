@@ -7,7 +7,7 @@ Esse repositório foi criado com a finalidade de armazenar os materiais disponib
 - Introdução à Programação e Pensamento Computacional
 - Introdução ao Git e ao GitHub
 
-### Módulo 02 *(EM PROGRESSO)*
+### Módulo 02 *(CONCLUÍDO)*
 - Introdução a criação de websites com HTML5 e CSS3
 - Posicionando elementos com Flexbox em CSS
 - Introdução ao JavaScript
@@ -23,7 +23,7 @@ Esse repositório foi criado com a finalidade de armazenar os materiais disponib
 - Manipulando a D.O.M com JS
 - Introdução ao TypeScript
 
-### Módulo 03 *(PENDENTE)*
+### Módulo 03 *(EM PROGRESSO)*
 - Introdução ao Angular 8
 - Trabalhando com Páginas SPA com Angular
 - A arquitetura de componentes e a gestão da complexidade no front-end
