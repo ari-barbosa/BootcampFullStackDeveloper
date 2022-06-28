@@ -1,0 +1,21 @@
+{
+  "name": "desafios",
+  "version": "1.0.0",
+  "description": "desafiosTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "ariane"
+  },
+  "repository": {
+    "type": "git",
+    "url": "desafios-ts"
+  },
+  "keywords": [
+    "aritupac1"
+  ],
+  "author": "Ariane",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
